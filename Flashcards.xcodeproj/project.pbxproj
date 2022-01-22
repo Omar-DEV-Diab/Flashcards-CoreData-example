@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		076A79DB278B537700794040 /* FlashCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076A79DA278B537700794040 /* FlashCardViewController.swift */; };
+		076A79DE278B592300794040 /* FlashCard+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076A79DC278B592300794040 /* FlashCard+CoreDataClass.swift */; };
+		076A79DF278B592300794040 /* FlashCard+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076A79DD278B592300794040 /* FlashCard+CoreDataProperties.swift */; };
 		07E15B6A27836F5C00790665 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E15B6927836F5C00790665 /* AppDelegate.swift */; };
 		07E15B6C27836F5C00790665 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E15B6B27836F5C00790665 /* SceneDelegate.swift */; };
 		07E15B6E27836F5C00790665 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E15B6D27836F5C00790665 /* ViewController.swift */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		076A79DA278B537700794040 /* FlashCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardViewController.swift; sourceTree = "<group>"; };
+		076A79DC278B592300794040 /* FlashCard+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FlashCard+CoreDataClass.swift"; sourceTree = "<group>"; };
+		076A79DD278B592300794040 /* FlashCard+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FlashCard+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		07E15B6627836F5C00790665 /* Flashcards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flashcards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07E15B6927836F5C00790665 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07E15B6B27836F5C00790665 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +67,9 @@
 				07E15B6927836F5C00790665 /* AppDelegate.swift */,
 				07E15B6B27836F5C00790665 /* SceneDelegate.swift */,
 				07E15B6D27836F5C00790665 /* ViewController.swift */,
+				076A79DA278B537700794040 /* FlashCardViewController.swift */,
+				076A79DC278B592300794040 /* FlashCard+CoreDataClass.swift */,
+				076A79DD278B592300794040 /* FlashCard+CoreDataProperties.swift */,
 				07E15B6F27836F5C00790665 /* Main.storyboard */,
 				07E15B7527836F5E00790665 /* Assets.xcassets */,
 				07E15B7727836F5E00790665 /* LaunchScreen.storyboard */,
@@ -141,10 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				076A79DF278B592300794040 /* FlashCard+CoreDataProperties.swift in Sources */,
 				07E15B6E27836F5C00790665 /* ViewController.swift in Sources */,
 				07E15B6A27836F5C00790665 /* AppDelegate.swift in Sources */,
 				07E15B7427836F5C00790665 /* Flashcards.xcdatamodeld in Sources */,
 				07E15B6C27836F5C00790665 /* SceneDelegate.swift in Sources */,
+				076A79DE278B592300794040 /* FlashCard+CoreDataClass.swift in Sources */,
+				076A79DB278B537700794040 /* FlashCardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
